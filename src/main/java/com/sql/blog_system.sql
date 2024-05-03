@@ -14,6 +14,10 @@
  Date: 18/12/2023 15:48:03
 */
 
+DROP DATABASE IF EXISTS blog_system;
+CREATE DATABASE blog_system;
+use blog_system;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
